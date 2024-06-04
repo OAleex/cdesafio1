@@ -1,9 +1,8 @@
-import 'package:cdesafio1/pages/results_page.dart';
 import 'package:flutter/material.dart';
 import 'aulas_page.dart';
 import 'config_page.dart';
 import 'home_content.dart';
-import 'results_page.dart'; // Certifique-se de que esta importação está correta
+import 'results_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -44,7 +43,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Olá, Alex'),
+        title: const Text('Olá, Joana'),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 16.0),
